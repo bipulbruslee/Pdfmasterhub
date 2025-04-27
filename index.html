@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFMasterHub - Your Ultimate Online PDF Toolkit</title>
+    <meta name="description" content="Transform your PDF documents with our comprehensive collection of free online PDF tools. Merge, split, compress, convert, and edit PDFs effortlessly.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f8f9fa;
+        }
+
+        /* Header Styles */
+        .header {
+            background: linear-gradient(135deg, #2b5876, #4e4376);
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: linear-gradient(135deg, #4e4376, #2b5876);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Tools Grid */
+        .tools-grid {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tool-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tool-icon {
+            font-size: 2.5rem;
+            color: #4e4376;
+            margin-bottom: 1rem;
+        }
+
+        /* Features Section */
+        .features {
+            background: white;
+            padding: 3rem 1rem;
+            margin: 3rem 0;
+        }
+
+        .features-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: #2b5876;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: #2b5876;
+            color: white;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .footer-links a:hover {
+            opacity: 1;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Ad Banners */
+        .ad-banner {
+            margin: 2rem auto;
+            text-align: center;
+            padding: 1rem;
+            background: white;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">PDFMasterHub</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#tools">Tools</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your Complete PDF Solution</h1>
+        <p>Transform, edit, and manage PDF documents with our comprehensive toolkit</p>
+    </section>
+
+    <!-- Ad Banner -->
+    <div class="ad-banner">
+        <!-- Insert Google AdSense or AdMob code here -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="XXXXXXXXXX"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+    </div>
+
+    <!-- Tools Grid -->
+    <section class="tools-grid" id="tools">
+        <!-- Tools will be dynamically populated by JavaScript -->
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-bolt feature-icon"></i>
+                <h3>Instant Processing</h3>
+                <p>Quick and efficient PDF operations with cloud-powered processing</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt feature-icon"></i>
+                <h3>Secure & Private</h3>
+                <p>All files are processed securely and deleted automatically</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-mobile-alt feature-icon"></i>
+                <h3>Mobile Friendly</h3>
+                <p>Works seamlessly on all devices and browsers</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PDF Tools</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Merge PDF</a></li>
+                    <li><a href="#">Split PDF</a></li>
+                    <li><a href="#">Compress PDF</a></li>
+                    <li><a href="#">PDF to Word</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // PDF Tools Data
+        const pdfTools = [
+            {name: "Merge PDF", icon: "file-pdf", desc: "Combine multiple PDF files into one"},
+            {name: "Split PDF", icon: "cut", desc: "Divide PDF into multiple documents"},
+            {name: "Compress PDF", icon: "compress", desc: "Reduce PDF file size without quality loss"},
+            {name: "PDF to Word", icon: "file-word", desc: "Convert PDF to editable Word documents"},
+            {name: "Word to PDF", icon: "file-pdf", desc: "Convert Word documents to PDF"},
+            {name: "PDF to Excel", icon: "file-excel", desc: "Extract tables from PDF to Excel"},
+            {name: "Protect PDF", icon: "lock", desc: "Add password protection to PDFs"},
+            {name: "Unlock PDF", icon: "unlock", desc: "Remove password protection from PDFs"},
+            {name: "Sign PDF", icon: "signature", desc: "Add digital signatures to documents"},
+            {name: "Edit PDF", icon: "edit", desc: "Modify PDF text and images"},
+            {name: "OCR PDF", icon: "eye", desc: "Convert scanned PDFs to searchable text"},
+            {name: "Rotate PDF", icon: "sync", desc: "Rotate pages in PDF documents"},
+        ];
+
+        // Populate tools grid
+        const toolsGrid = document.querySelector('.tools-grid');
+        pdfTools.forEach(tool => {
+            toolsGrid.innerHTML += `
+                <div class="tool-card">
+                    <i class="fas fa-${tool.icon} tool-icon"></i>
+                    <h3>${tool.name}</h3>
+                    <p>${tool.desc}</p>
+                </div>
+            `;
+        });
+
+        // Initialize ads
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</body>
+</html>
